@@ -1,0 +1,58 @@
+{
+  "fields": [
+    {
+      "id": "06929c21-1305-494c-95cc-16476d398fbd",
+      "fieldName": "firstName",
+      "inputType": "text",
+      "label": "First Name",
+      "defaultValue": "",
+      "config": {
+        "required": "Required"
+      }
+    },
+    {
+      "id": "b5b5b5b5-1305-494c-95cc-16476d398fbd",
+      "fieldName": "lastName",
+      "inputType": "text",
+      "label": "Last Name",
+      "defaultValue": "",
+      "config": {
+        "required": "Required"
+      }
+    },
+    {
+      "id": "bae1af27-16c6-4c91-95a2-299c55aca827",
+      "fieldName": "age",
+      "inputType": "number",
+      "label": "Age",
+      "defaultValue": 18,
+      "config": {
+        "required": "Required"
+      }
+    },
+    {
+      "id": "3f6403a4-f239-487a-a515-300ce602b805",
+      "fieldName": "language",
+      "inputType": "select",
+      "label": "Language",
+      "options": [
+        {
+          "value": "english",
+          "label": "English"
+        },
+        {
+          "value": "french",
+          "label": "French"
+        }
+      ],
+      "defaultValue": "english"
+    },
+    {
+      "id": "fe10e0a3-03b8-48e6-8201-8a91a3643326",
+      "fieldName": "address",
+      "inputType": "text",
+      "label": "Address",
+      "defaultValue": ""
+    }
+  ]
+}
